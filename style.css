@@ -1,0 +1,248 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 19px;
+	font-family: "Roboto", "Arial", sans-serif;
+	color:#B5BFC0;
+	background-color: #e5e5e5;
+}
+/*FIRST page*/
+.first-page{
+	box-sizing: border-box;
+	padding-top: 40px;
+	padding-left: 80px;
+	width: 1027px;
+	margin: 0 auto;
+	background: url(images/header-img.png) no-repeat #F2B3D1;
+	background-position: center;
+	background-size: cover;
+	height: 588px;
+}
+
+.navig{
+	margin:0;
+	padding: 0;
+	margin-left: 140px;
+}
+
+.navig li{
+	display: inline;
+	margin-right: 71px;
+	list-style: none;
+}
+
+.navig li:nth-child(4),
+.navig li:nth-child(5){
+	margin-right: 15px;
+}
+
+.navig a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.navig a:hover {
+	text-decoration: underline;
+}
+
+.navig a:active {
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.promo {
+	margin-top:350px;
+	font-size: 48px;
+	line-height: 56px;
+	text-align: left;
+	color:white;
+}
+
+.promo h1{
+	margin: 0;
+	padding: 0;
+	font-size: 48px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.promo h2{
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+
+/*SECOND page*/
+.second-page{
+	box-sizing:border-box;
+	width: 1027px;
+	margin: 0 auto;
+	padding: 72px 78px;
+	background-color: #021140;
+	padding-bottom: 50px;
+}
+
+.section-title{
+	margin:0;
+	margin-left: 225px;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+	text-transform: uppercase;
+	color:#F9FDFB;
+}
+
+.second-page img{
+	border-radius: 50%;
+}
+
+.about{
+	float: right;
+	width:644px;
+}
+
+.clearfix::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.features {
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding:30px;
+	width:680px;
+	border-bottom: 1px solid #48BAC0;
+	border-top: 1px solid #48BAC0;
+	color: #48BAC0;
+}
+
+/*---THIRD page----*/
+.third-page{
+	padding-top: 56px;
+	padding-bottom: 17px;
+	width: 1027px;
+	margin: 0 auto;
+	background: url(images/pink.png) no-repeat #F2B3D1;
+	background-position: center;
+	background-size: cover;
+	color: #ffffff;
+}
+
+.third-page h2{
+	margin: 0;
+	padding: 0;
+	margin-left: 313px;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+.mystery{
+	width: 640px;
+	margin-left: 313px;
+}
+
+.third-page .features{
+	color: #021140;
+	border-top: 1px solid #021140;
+	border-bottom: 1px solid #021140;
+}
+
+/*----------4---------*/
+.fourth-page{
+	width: 1027px;
+	margin: 0 auto;
+	padding: 0;
+	padding-top: 355px;
+	padding-bottom: 50px;
+	background: url(images/lake-4.png) no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #B5BFC0;
+}
+
+.param{
+	width:509px;
+	margin-left: 433px;
+}
+
+/*PHOTO page*/
+.photos{
+	width: 1027px;
+	margin: 0 auto;
+	padding: 0;
+	padding-top: 80px;
+	background-color: white;
+	padding-bottom: 60px;
+}
+
+.item1{
+	margin-left: 66px;
+	margin-right: 40px;
+}
+
+.item2{
+	margin-right: 40px;	
+}
+.photos a{
+	color:#021140;
+	text-decoration: none;
+}
+
+.photos a:hover{
+	color:#021140;
+}
+
+.photos a:active{
+	color:#021140;
+}
+
+.btn{
+	width:160px;
+	margin: 0;
+	padding: 0;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+
+
+/*FOOOTER!!!!*/
+footer{
+	box-sizing: border-box;
+	width: 1027px;
+	margin: 0 auto;
+	padding: 0;
+	padding-top: 297px;
+	background: url(images/lake-shore.png) no-repeat;
+	background-position: top;
+	height: 476px;
+}
+
+.foot-contain{
+	height: 75px;
+	background-color: white;
+	padding-top: 25px;
+	padding-left: 218px;
+}
+
+footer ul{
+	list-style: none;
+}
+footer ul li{
+	display: inline;
+	color:#021140;
+	margin-right: 71px;
+}
+
+footer ul li:nth-child(4){
+	margin-right: 10px;
+}
+footer ul li a{
+	text-decoration: none;
+	color:#021140;
+}
+
