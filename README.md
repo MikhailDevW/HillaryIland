@@ -1,2 +1,2 @@
 # HillaryIland
-First page with html5 and css3
+Самая первая осознанная верстка страницы.
